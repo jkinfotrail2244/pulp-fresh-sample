@@ -92,7 +92,7 @@ export default function StallFooter() {
               {s}
             </a>
           ))}
-          <p className="pf-footnote">{footer.note}</p>
+          
         </div>
       </div>
       <span className="pf-stamp-spot" data-orange-stamp aria-hidden />
@@ -101,7 +101,7 @@ export default function StallFooter() {
         aria-hidden
         style={{ "--blots": BLOTS.map(([x, y], i) => `radial-gradient(circle at ${x}% ${y}%, #000 var(--b${i}, 0%), transparent calc(var(--b${i}, 0%) + 1.5%))`).join(", ") } as CSSProperties}
       >
-        {footer.wordmark}
+        
       </div>
     </footer>
   );
